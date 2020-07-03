@@ -5,12 +5,10 @@ spring:
   datasource:
     url: "jdbc:oracle:thin:@localhost:1521:orcl"
     username: HR
-    password: 14292
+    password: 14292Peo
     driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     database-platform: org.hibernate.dialect.Oracle10gDialect
-  application:
-    name: movie-catalog-service
   cloud:
     config:
       uri: "http://localhost:8888"
