@@ -30,7 +30,7 @@ app:
   greeting: how are you!
   msg: hello benzema ${app.greeting}
   list:
-    values: Kelly Brook,Julia Ann,Chopa,Doto
+    values: "{cipher}cf68ff49ff943c69231fae93c9f25f86d4e5e5dd50b9b4920850c3ba8cbcd1eb17b1a279270ea660cb901c68b27a8aafee0d67e2e4aae07d12ad53f2688ae189"
   dbValues: "{connection_string: 'jdbc:oracle:thin@localhost:1521:orcl',username: '${con.username}',password: '${con.password}'}"
 
 con:
