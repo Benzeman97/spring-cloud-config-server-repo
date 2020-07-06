@@ -1,6 +1,0 @@
-movie:  
-  api_key: d66b748ee1f3ea82094e6aa19d7db744
-  url: https://api.themoviedb.org/3/movie/
-  
-server:
-   port: 8082
