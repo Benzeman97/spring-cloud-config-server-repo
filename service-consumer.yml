@@ -1,3 +1,10 @@
+
+
+service:
+   provider:
+          port: 9090
+          url: "http://localhost:${service.provider.port}/emp/"
+
 auth:
   server:
       port: "af3895754ccca72eba49dd38246ec189dd0bd8217e4de6c03a4e013398c13af5"
@@ -8,7 +15,4 @@ security:
       client-id: mobile
       client-secret: admin
     resource:
-      token-info-uri: "http://localhost:${auth.server.port}/oauth/check_token"
-
-
-
+      token-info-uri: "http://localhost:${auth.server.port}/oauth/checklocalhost
