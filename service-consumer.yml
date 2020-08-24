@@ -1,3 +1,4 @@
+
 auth:
   server:
       port: "af3895754ccca72eba49dd38246ec189dd0bd8217e4de6c03a4e013398c13af5"
@@ -9,6 +10,4 @@ security:
       client-secret: admin
     resource:
       token-info-uri: "http://localhost:${auth.server.port}/oauth/check_token"
-
-
 
