@@ -1,5 +1,6 @@
 
 
+
 service:
    provider:
           port: 9090
@@ -15,4 +16,6 @@ security:
       client-id: mobile
       client-secret: admin
     resource:
-      token-info-uri: "http://localhost:${auth.server.port}/oauth/checklocalhost
+      token-info-uri: "http://localhost:${auth.server.port}/oauth/check_token"
+
+
