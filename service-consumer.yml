@@ -4,7 +4,7 @@
 service:
    provider:
           port: 9090
-          url: "http://localhost:${service.provider.port}/emp/"
+          url: "http://producer:${service.provider.port}/emp/"
 
 auth:
   server:
